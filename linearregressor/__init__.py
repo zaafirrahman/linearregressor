@@ -101,3 +101,10 @@ def rsquare(x,y):
 def r(x,y):
     multiple_r = rsquare(x,y)**(1/2)
     return multiple_r
+
+def info(x,y):
+    print('Constant : ',fit(x,y)[0])
+    for i in range(len(fit(x,y)[1])):
+        print(f'Coefficient_{i+1} : {fit(x,y)[1][i]}')
+    print('Multiple R : ',r(x,y))
+    print('R Squared : ',rsquare(x,y))
