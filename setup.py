@@ -25,7 +25,7 @@ setup(
     author_email='zaafir123rahman@gmail.com',
     license='MIT',
     classifiers=classifiers,
-    keywords=['linearregression', 'prediction'],
+    keywords=['linearcregression', 'machine learning', 'prediction'],
     packages=find_packages(),
     install_requires=['']
 )
