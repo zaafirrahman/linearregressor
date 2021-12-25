@@ -165,3 +165,23 @@ With the same train data, you can find the determination coefficient of the data
 0.8364425275410518
 ```
 As shown in the output, it can be concluded that the value of the independent variable affects `0.8364425275410518` or `83.64%` of the value of the dependent variable, while the remaining `16.36%` is influenced by other variables.
+
+
+## Regression Information
+
+## `lr.info(x,y)`
+
+This function can be used to easily show the information of your data such as constant (intercept), coefficient (slope), multiple r (correlation coefficient), and r squared (determination coefficient) together in just one function
+
+**Example:**
+
+With the same train data, you can show the whole regression information about your data
+
+```python
+>>> lr.info(x,y)
+Constant :  3.918727915194365
+Coefficient_1 : 2.4911660777385274
+Coefficient_2 : -0.46643109540637395
+Multiple R :  0.9145723194701728
+R Squared :  0.8364425275410518
+```
